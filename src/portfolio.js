@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Srimanth Bhamidipati",
+  title: "Hi there!, You’re in the right place—let’s connect!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "A passionate Electrical & Telecom Engineer 🚀 with hands-on experience in developing Automation and ML solutions for smart industry applications using Python, AI frameworks, and advanced telecom technologies.),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oJz-vevAji-CQnGSsRCT17euzQYZ6X6t/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Bhamidipatisrimanth",
+  linkedin: "https://www.linkedin.com/in/bhamidipati-srimanth/",
+  gmail: "srimanthbhamidipati@gmail.com",
+  //gitlab: "https://github.com/Bhamidipatisrimanth",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,197 +48,213 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE TELECOM & AUTOMATION ENGINEER BUILDING SECURE, INTELLIGENT SYSTEMS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop automation workflows and cloud infrastructure for telecom, wireless, and IoT networks"),
+    emoji("⚡ Design & simulate advanced wireless communication (MIMO, Physical Layer Security, DOA Estimation) in MATLAB"),
+    emoji("⚡ Build ML models for battery prediction, network optimization, and smart alert systems using Python"),
+    emoji("⚡ Implement high-availability (HA) cloud setups using OpenStack, Ansible, HAProxy, and Keepalived"),
+    emoji("⚡ Integrate embedded systems and IoT devices with real-world data acquisition and analytics"),
+    emoji("⚡ Monitor, visualize, and troubleshoot complex networks with Prometheus and Grafana dashboards")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Matlab",
+      fontAwesomeClassname: "fas fa-calculator"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Ansible",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Grafana",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Prometheus",
+      fontAwesomeClassname: "fas fa-broadcast-tower"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Cloud",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
     }
+    // Add "Embedded", "IoT", or other stacks as icons or as plain text skillName if FontAwesome is not available
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Blekinge Institute of Technology",
+      logo: require("./assets/images/blekingeLogo.png"), // use school logo if available!
+      subHeader: "MSc in Electrical Engineering — Telecommunication Systems",
+      duration: "August 2023 - June 2025",
+      desc: "Advancing wireless/telecom expertise, automation, and cloud infrastructure.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specialized in Wireless Communication Systems, Signal Processing, Modelling & Simulation, Matlab, Optimization Techniques",
+        "Master’s thesis: Physical Layer Security & DOA Estimation (MATLAB, MIMO, Artificial Noise)",
+        "Hands-on automation with OpenStack, Ansible, Prometheus, and advanced ML for telecom applications"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Jawaharlal Nehru Technological University Hyderabad",
+      logo: require("./assets/images/jntuhLogo.png"), // use school logo if available!
+      subHeader: "BTech in Electronics Communication Engineering",
+      duration: "August 2019 - July 2023",
+      desc: "Solid foundation in electronics, embedded systems, and applied machine learning.",
+      descBullets: [
+        "Relevant coursework: Network Analysis, Antenna Design, ML Basics, Embedded Systems, Probability & Statistics",
+        "Developed Smart Alert System for Visually Impaired (Python/Raspberry Pi, OCR, IoT)",
+        "Organized international workshops and participated in innovative engineering projects"
+      ]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// TOP 3 TECH STACKS — updated based on actual proficiency/projects
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Automation & Scripting (Python, Bash, Ansible, Git)",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Wireless Communication & Simulation (MATLAB, Simulink, Telecom Protocols)",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Machine Learning & Cloud Platforms (ML frameworks, Azure, GCP, Prometheus, Grafana)",
+      progressPercentage: "70%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Subject Matter Expert – Mathematics",
+      company: "Chegg India Pvt Ltd",
+      companylogo: require("./assets/images/cheggLogo.png"), // Use logo if available
+      date: "June 2021 – July 2022",
+      desc: "Delivered high-quality solutions for advanced mathematics, statistics, and engineering disciplines with top-rated feedback.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Solved 100+ complex problems with 90%+ positive student ratings",
+        "Demonstrated clarity in step-by-step explanations and academic integrity"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Workshop Organizer / Conference Volunteer",
+      company: "JNTU Hyderabad",
+      companylogo: require("./assets/images/jntuhLogo.png"), // Use logo if available
+      date: "Aug 2019 – July 2023",
+      desc: "Coordinated events, developed technical content, and managed logistics for international engineering conferences and workshops.",
+      descBullets: [
+        "Organized sessions on automation, wireless communication, and IoT",
+        "Supported logistics for ICET and other academic conferences"
+      ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true", // Set true to show your GitHub pinned projects (add your username in config)
+  display: true
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects",
+  subtitle: "TECHNICAL INNOVATIONS AND ACADEMIC RESEARCH IMPACT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mimoLogo.png"), // Use representative image for MIMO/Security project
+      projectName: "Physical Layer Security & DOA Estimation Under Doppler Shift",
+      projectDesc: "Developed advanced frameworks for wireless security, using MATLAB, Kalman filter, MUSIC, and massive MIMO. Achieved 40% BER reduction, 35% DOA accuracy improvement, 25–40% secrecy capacity gain.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "view thesis research",
+          url: "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1983838" // add actual link as available
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/openstackLogo.png"), // Use image for automation/cloud projects
+      projectName: "Automated Cloud Infrastructure: OpenStack with Ansible, Prometheus, Grafana",
+      projectDesc: "Developed high-availability cloud setup for telecom and network monitoring with automated provisioning, real-time dashboards, and resource optimization.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Automation Repo",
+          url: "https://github.com/Bhamidipatisrimanth/Network-Automation-and-Performance-Analysis-of-a-Scalable-Cloud-Service-in-OpenStack.git" // add actual link as available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/batteryMLLogo.png"), // Add image for battery prediction project
+      projectName: "Battery Life Prediction Using ML & Monte Carlo Simulations",
+      projectDesc: "Built predictive ML models to estimate battery lifespan. Validated with 100+ simulation scenarios in MATLAB.",
+      footerLink: [
+        {
+          name: "View Project Code",
+          url: "https://github.com/Bhamidipatisrimanth/Battery-Life-Prediction-Using-Machine-learning-Model-And-Monte-Carlo-simulation.git" // add link if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smartAlertLogo.png"), // Custom image for IoT project
+      projectName: "Smart Alert System for Visually Impaired (IoT, Python, Raspberry Pi)",
+      projectDesc: "Created a real-time obstacle detection and OCR-based audio alert system, achieving over 90% conversion accuracy.",
+      //footerLink: [
+        {
+          // name: "View Project Details",
+         // url: "https://github.com/your-github-username/smart-alert-iot" // add link if available
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -248,64 +263,83 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards, and Recognitions on my technical journey!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IBM Watson AI Certification",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed the 'AI Fundamentals' program on IBM Watson via Coursera, building a strong foundation in AI/ML techniques for real-world applications.",
+      image: require("./assets/images/ibmWatsonLogo.png"),
+      imageAlt: "IBM Watson Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://coursera.org/share/ccad34b1f59d506432dbe6590db80ed2" // Replace with your actual certificate URL
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to Electronics – Coursera",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certified in electronics basics, circuit analysis, and hands-on implementations through Coursera.",
+      image: require("./assets/images/electronicsLogo.png"),
+      imageAlt: "Electronics Certification Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://coursera.org/share/700032875d38a79b3d3c7c1815bbae75" // Replace with your actual certificate URL
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "IoT Wireless and Cloud Computing – Coursera",
+      subtitle:
+        "Acquired expertise in IoT integration, wireless protocols, and cloud platforms—accelerating automation and smart systems.",
+      image: require("./assets/images/iotLogo.png"),
+      imageAlt: "IoT Wireless Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://coursera.org/share/ca1ddcba5ca408f55286bd6399cae58f" // Replace with your actual certificate URL
+        }
+      ]
+    },
+    {
+      title: "C Programming Fundamentals – Coursera",
+      subtitle:
+        "Mastered C programming, data structures and logic for embedded and system-level projects.",
+      image: require("./assets/images/cProgrammingLogo.png"),
+      imageAlt: "C Programming Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/share/0460b2ed049b13133b3cc40f28a590c5" // Replace with your actual certificate URL
+        }
+      ]
+    },
+    {
+      title: "Conference Volunteer & Workshop Organizer",
+      subtitle:
+        "Organized and supported technical sessions at International Conference on Innovations in Engineering and Technology (ICET), contributing to knowledge sharing and collaboration.",
+      image: require("./assets/images/conferenceLogo.png"),
+      imageAlt: "Conference Logo",
+      footerLink: [
+        {
+          name: "Event certificate",
+          url: "https://drive.google.com/file/d/1g0LFbne28fcDI7cwNIsHphMPuJdu4wsV/view?usp=drivesdk" // Official conference link or portfolio evidence
         }
       ]
     }
+    // Add more cards for new certificates, awards, or recognitions in the future!
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Blogs Section
 
-const blogSection = {
+//const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -324,12 +358,12 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
-const talkSection = {
+//const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
@@ -343,7 +377,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +390,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +406,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 8008822922","+46 0763418655"
+  email_address: "srimanthbhamidipati@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
