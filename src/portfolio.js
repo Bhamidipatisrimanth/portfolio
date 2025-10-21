@@ -23,9 +23,7 @@ const greeting = {
   username: "Srimanth Bhamidipati",
   title: "Hi there!, You’re in the right place—let’s connect!",
   subTitle: emoji(
-  "A passionate Electrical & Telecom Engineer 🚀 with hands-on experience in developing Automation and ML solutions for smart industry applications using Python, AI frameworks, and advanced telecom technologies."
-),
-
+    "A passionate Electrical & Telecom Engineer 🚀 with hands-on experience in developing Automation and ML solutions for smart industry applications using Python, AI frameworks, and advanced telecom technologies."),
   resumeLink:
     "https://drive.google.com/file/d/1oJz-vevAji-CQnGSsRCT17euzQYZ6X6t/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -126,7 +124,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Blekinge Institute of Technology",
-      logo: require("./assets/images/blekingeLogo.png"), // use school logo if available!
+      //logo: require("./assets/images/blekingeLogo.png"), // use school logo if available!
       subHeader: "MSc in Electrical Engineering — Telecommunication Systems",
       duration: "August 2023 - June 2025",
       desc: "Advancing wireless/telecom expertise, automation, and cloud infrastructure.",
@@ -138,7 +136,7 @@ const educationInfo = {
     },
     {
       schoolName: "Jawaharlal Nehru Technological University Hyderabad",
-      logo: require("./assets/images/jntuhLogo.png"), // use school logo if available!
+      //logo: require("./assets/images/jntuhLogo.png"), // use school logo if available!
       subHeader: "BTech in Electronics Communication Engineering",
       duration: "August 2019 - July 2023",
       desc: "Solid foundation in electronics, embedded systems, and applied machine learning.",
@@ -180,7 +178,7 @@ const workExperiences = {
     {
       role: "Subject Matter Expert – Mathematics",
       company: "Chegg India Pvt Ltd",
-      companylogo: require("./assets/images/cheggLogo.png"), // Use logo if available
+      //companylogo: require("./assets/images/cheggLogo.png"), // Use logo if available
       date: "June 2021 – July 2022",
       desc: "Delivered high-quality solutions for advanced mathematics, statistics, and engineering disciplines with top-rated feedback.",
       descBullets: [
@@ -191,7 +189,7 @@ const workExperiences = {
     {
       role: "Workshop Organizer / Conference Volunteer",
       company: "JNTU Hyderabad",
-      companylogo: require("./assets/images/jntuhLogo.png"), // Use logo if available
+      //companylogo: require("./assets/images/jntuhLogo.png"), // Use logo if available
       date: "Aug 2019 – July 2023",
       desc: "Coordinated events, developed technical content, and managed logistics for international engineering conferences and workshops.",
       descBullets: [
@@ -212,7 +210,7 @@ const bigProjects = {
   subtitle: "TECHNICAL INNOVATIONS AND ACADEMIC RESEARCH IMPACT",
   projects: [
     {
-      image: require("./assets/images/mimoLogo.png"), // Use representative image for MIMO/Security project
+      //image: require("./assets/images/mimoLogo.png"), // Use representative image for MIMO/Security project
       projectName: "Physical Layer Security & DOA Estimation Under Doppler Shift",
       projectDesc: "Developed advanced frameworks for wireless security, using MATLAB, Kalman filter, MUSIC, and massive MIMO. Achieved 40% BER reduction, 35% DOA accuracy improvement, 25–40% secrecy capacity gain.",
       footerLink: [
@@ -223,7 +221,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/openstackLogo.png"), // Use image for automation/cloud projects
+      //image: require("./assets/images/openstackLogo.png"), // Use image for automation/cloud projects
       projectName: "Automated Cloud Infrastructure: OpenStack with Ansible, Prometheus, Grafana",
       projectDesc: "Developed high-availability cloud setup for telecom and network monitoring with automated provisioning, real-time dashboards, and resource optimization.",
       footerLink: [
@@ -234,7 +232,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/batteryMLLogo.png"), // Add image for battery prediction project
+      //image: require("./assets/images/batteryMLLogo.png"), // Add image for battery prediction project
       projectName: "Battery Life Prediction Using ML & Monte Carlo Simulations",
       projectDesc: "Built predictive ML models to estimate battery lifespan. Validated with 100+ simulation scenarios in MATLAB.",
       footerLink: [
@@ -245,15 +243,15 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/smartAlertLogo.png"), // Custom image for IoT project
+      //image: require("./assets/images/smartAlertLogo.png"), // Custom image for IoT project
       projectName: "Smart Alert System for Visually Impaired (IoT, Python, Raspberry Pi)",
       projectDesc: "Created a real-time obstacle detection and OCR-based audio alert system, achieving over 90% conversion accuracy.",
       //footerLink: [
-        {
+        //{
           // name: "View Project Details",
          // url: "https://github.com/your-github-username/smart-alert-iot" // add link if available
-        }
-      ]
+        //}
+      //]
     }
   ],
   display: true
@@ -272,7 +270,7 @@ const achievementSection = {
       title: "IBM Watson AI Certification",
       subtitle:
         "Completed the 'AI Fundamentals' program on IBM Watson via Coursera, building a strong foundation in AI/ML techniques for real-world applications.",
-      image: require("./assets/images/ibmWatsonLogo.png"),
+      //image: require("./assets/images/ibmWatsonLogo.png"),
       imageAlt: "IBM Watson Logo",
       footerLink: [
         {
@@ -285,7 +283,7 @@ const achievementSection = {
       title: "Introduction to Electronics – Coursera",
       subtitle:
         "Certified in electronics basics, circuit analysis, and hands-on implementations through Coursera.",
-      image: require("./assets/images/electronicsLogo.png"),
+      //image: require("./assets/images/electronicsLogo.png"),
       imageAlt: "Electronics Certification Logo",
       footerLink: [
         {
@@ -298,7 +296,7 @@ const achievementSection = {
       title: "IoT Wireless and Cloud Computing – Coursera",
       subtitle:
         "Acquired expertise in IoT integration, wireless protocols, and cloud platforms—accelerating automation and smart systems.",
-      image: require("./assets/images/iotLogo.png"),
+      //image: require("./assets/images/iotLogo.png"),
       imageAlt: "IoT Wireless Logo",
       footerLink: [
         {
@@ -311,7 +309,7 @@ const achievementSection = {
       title: "C Programming Fundamentals – Coursera",
       subtitle:
         "Mastered C programming, data structures and logic for embedded and system-level projects.",
-      image: require("./assets/images/cProgrammingLogo.png"),
+      //image: require("./assets/images/cProgrammingLogo.png"),
       imageAlt: "C Programming Logo",
       footerLink: [
         {
@@ -324,7 +322,7 @@ const achievementSection = {
       title: "Conference Volunteer & Workshop Organizer",
       subtitle:
         "Organized and supported technical sessions at International Conference on Innovations in Engineering and Technology (ICET), contributing to knowledge sharing and collaboration.",
-      image: require("./assets/images/conferenceLogo.png"),
+      //image: require("./assets/images/conferenceLogo.png"),
       imageAlt: "Conference Logo",
       footerLink: [
         {
@@ -341,7 +339,7 @@ const achievementSection = {
 
 // Blogs Section
 
-//const blogSection = {
+const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -357,7 +355,7 @@ const achievementSection = {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
   display: false// Set false to hide this section, defaults to true
@@ -365,7 +363,7 @@ const achievementSection = {
 
 // Talks Sections
 
-//const talkSection = {
+const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
@@ -408,8 +406,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 8008822922","+46 0763418655"
-  email_address: "srimanthbhamidipati@gmail.com"
+ number: ["+91 8008822922", "+46 0763418655"],
+email_address: "srimanthbhamidipati@gmail.com"
+
 };
 
 // Twitter Section
