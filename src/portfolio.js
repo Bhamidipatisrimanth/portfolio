@@ -23,7 +23,9 @@ const greeting = {
   username: "Srimanth Bhamidipati",
   title: "Hi there!, You’re in the right place—let’s connect!",
   subTitle: emoji(
-    "A passionate Electrical & Telecom Engineer 🚀 with hands-on experience in developing Automation and ML solutions for smart industry applications using Python, AI frameworks, and advanced telecom technologies.),
+  "A passionate Electrical & Telecom Engineer 🚀 with hands-on experience in developing Automation and ML solutions for smart industry applications using Python, AI frameworks, and advanced telecom technologies."
+),
+
   resumeLink:
     "https://drive.google.com/file/d/1oJz-vevAji-CQnGSsRCT17euzQYZ6X6t/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
