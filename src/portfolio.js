@@ -177,6 +177,18 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Cloud Engineer Intern",
+      company: "Hansa Vahan India Private Limited",
+      companylogo: require("./assets/images/hansaLogo.png"), // add logo if you have
+      date: "Aug 2025 – Oct 2025",
+      desc: "Worked on cloud deployment, monitoring, and infrastructure automation to improve system reliability and performance.",
+      descBullets: [
+        "Supported cloud deployment and monitoring, improving system efficiency by 85%",
+        "Worked on infrastructure automation and performance monitoring",
+        "Assisted in optimizing cloud resources and system uptime"
+      ]
+    },
+    {
       role: "Subject Matter Expert – Mathematics",
       company: "Chegg India Pvt Ltd",
       //companylogo: require("./assets/images/cheggLogo.png"), // Use logo if available
